@@ -1,0 +1,10 @@
+C:\Users\aile\source\repos\pcksimulatorv2\bin\Debug\pcksimulatorv2.exe.config
+C:\Users\aile\source\repos\pcksimulatorv2\bin\Debug\pcksimulatorv2.exe
+C:\Users\aile\source\repos\pcksimulatorv2\bin\Debug\pcksimulatorv2.pdb
+C:\Users\aile\source\repos\pcksimulatorv2\obj\Debug\pcksimulatorv2.csprojAssemblyReference.cache
+C:\Users\aile\source\repos\pcksimulatorv2\obj\Debug\pcksimulatorv2.Form1.resources
+C:\Users\aile\source\repos\pcksimulatorv2\obj\Debug\pcksimulatorv2.Properties.Resources.resources
+C:\Users\aile\source\repos\pcksimulatorv2\obj\Debug\pcksimulatorv2.csproj.GenerateResource.cache
+C:\Users\aile\source\repos\pcksimulatorv2\obj\Debug\pcksimulatorv2.csproj.CoreCompileInputs.cache
+C:\Users\aile\source\repos\pcksimulatorv2\obj\Debug\pcksimulatorv2.exe
+C:\Users\aile\source\repos\pcksimulatorv2\obj\Debug\pcksimulatorv2.pdb
