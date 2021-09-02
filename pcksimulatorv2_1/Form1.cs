@@ -33,7 +33,7 @@ namespace pcksimulatorv2
 
         private void serialPort1_DataReceived(object sender, SerialDataReceivedEventArgs e)
         {
-            tbRX.Text += "\n---" + serialPort1.ReadExisting() + "---";
+            tbRX.Text += "\r\n---" + serialPort1.ReadExisting() + "---";
         }
 
         private void btnport_Click(object sender, EventArgs e)
@@ -65,14 +65,14 @@ namespace pcksimulatorv2
         {
             try
             {
-                if (Convert.ToInt16(tbsizeofpacket.Text) > 7 && Convert.ToInt16(tbsizeofpacket.Text) < 255)
+                if (Convert.ToInt16(tbsizeofpacket.Text) > 7 && Convert.ToInt16(tbsizeofpacket.Text) < 263)
                 {
                     byte[] pck = createPacket(Convert.ToInt16(tbsizeofpacket.Text));
                     tbTX.Text = BitConverter.ToString(pck);
                 }
                 else
                 {
-                    MessageBox.Show("Paket büyüklüğü (7-255) arası olmalıdır");
+                    MessageBox.Show("Paket büyüklüğü (7-263) arası olmalıdır");
                 }
             }catch (Exception ex) { MessageBox.Show(ex.Message); }
         }
@@ -89,7 +89,7 @@ namespace pcksimulatorv2
             arr[1] = arrsize[0];
             arr[2] = arrsize[1];
 
-            short packetchecksum = 0;
+            ushort packetchecksum = 0;
             for (int i = 3; i < size - 3; i++)
                 packetchecksum += arr[i];
             byte[] packetchecksumByte = BitConverter.GetBytes(packetchecksum);
