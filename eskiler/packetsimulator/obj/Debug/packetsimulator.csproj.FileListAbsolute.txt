@@ -1,0 +1,12 @@
+C:\Users\aile\source\repos\packetsimulator\bin\Debug\packetsimulator.exe.config
+C:\Users\aile\source\repos\packetsimulator\bin\Debug\packetsimulator.exe
+C:\Users\aile\source\repos\packetsimulator\bin\Debug\packetsimulator.pdb
+C:\Users\aile\source\repos\packetsimulator\obj\Debug\packetsimulator.csprojAssemblyReference.cache
+C:\Users\aile\source\repos\packetsimulator\obj\Debug\packetsimulator.Form1.resources
+C:\Users\aile\source\repos\packetsimulator\obj\Debug\packetsimulator.Properties.Resources.resources
+C:\Users\aile\source\repos\packetsimulator\obj\Debug\packetsimulator.csproj.GenerateResource.cache
+C:\Users\aile\source\repos\packetsimulator\obj\Debug\packetsimulator.csproj.CoreCompileInputs.cache
+C:\Users\aile\source\repos\packetsimulator\obj\Debug\packetsimulator.exe
+C:\Users\aile\source\repos\packetsimulator\obj\Debug\packetsimulator.pdb
+C:\Users\aile\source\repos\packetsimulator\obj\Debug\packetsimulator.Form2.resources
+C:\Users\aile\source\repos\packetsimulator\obj\Debug\packetsimulator.Form3.resources
